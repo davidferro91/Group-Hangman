@@ -1,0 +1,12 @@
+main {
+    background-image: url(breakfast.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.title {
+    background:white;
+    opacity: 0.8;
+    text-align:center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Group Hangman</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+   crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <main>
+            <header class="container">
+                <div class="row">
+                    <div class="col m-5 p-2">
+                        <h1 class="title">Breakfast Club Word Guess Game</h1>
+                    </div>
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <ul class="col title" id="letterHolder">
+
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col title" id="lettersGuessed">
+                        Letters Guessed: 
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-6 title" id="instructions">
+                        Press any key to play!
+                    </div>
+                    <div class="col-6 title" id="counters">
+                        <div id="wins">
+                            Wins: 
+                        </div>
+                        <div id="losses">
+                            Losses:
+                        </div>
+                        <div id="remainingLives">
+                            Lives Left:
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
